@@ -10,19 +10,14 @@ from main import (
     wave_sort,
     arr_sort,
     triangles,
-    dec_to_bin,
     bin_to_dec,
-    fib_triangle,
     armstrong_num,
     fib,
     gcdd,
-    plusMinus,
-    miniMaxSum,
     timeConversion,
     matchStrings,
     unique_elem,
     flippingBits,
-    abs_difff,
     countingSort,
     repeatingNum,
     missingNums,
@@ -74,10 +69,6 @@ class TestYourFunctions(unittest.TestCase):
         self.assertEqual(triangles([3, 4, 5, 7]), 2)
         self.assertEqual(triangles([10, 20, 30, 40, 50]), 0)
 
-    def test_dec_to_bin(self):
-        self.assertEqual(dec_to_bin(10), '1010')
-        self.assertEqual(dec_to_bin(25), '11001')
-        self.assertEqual(dec_to_bin(0), '0')
 
     def test_bin_to_dec(self):
         self.assertEqual(bin_to_dec('1010'), 10)

@@ -570,22 +570,3 @@ def findCommonPrefix(arr: list) -> str:
         else:
             result.append(result_set.pop())
             j += 1
-
-
-
-        
-
-
-
-
-
-
-
-
-
-        
-
-
-            
-
-
